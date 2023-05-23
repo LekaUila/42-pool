@@ -1,0 +1,34 @@
+
+int main(void)
+{
+	unsigned int n = 7;
+	char tempo=7;
+	char inu1 = 0;
+	char inu2 = 0;
+	char inu3 = 0;
+	char inu4 = 0;
+	char inu5 = 0;
+	char inu6 = 0;
+	char inu7 = 0;
+	char inu8 = 0;
+	char inu9 = 0;
+	char inu10 = 0;
+	char *rep;
+	char *test;
+	test = "connard";
+	char *test2;
+	test2 = &tempo;
+	rep = ft_strncpy(test2 + 1, test, n);
+	tempo++;
+	while(--tempo != 0)
+	{	
+		if (rep == 0)
+			write(1, "0", 1);
+		else
+		{
+			write(1, rep, 1);
+			write(1, ".", 1);
+		}
+		rep++;
+	}
+}

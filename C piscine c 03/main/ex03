@@ -1,0 +1,20 @@
+
+
+#include <unistd.h>
+
+void	ft_putstr(char *str)
+{
+	while (*str != 0)
+	{
+		write(1, str, 1);
+		str++;
+	}
+}
+
+int main(void)
+{
+	char *src = "reussi ! ou pas !";
+	char tab[255] = "Tu as ";
+	ft_putstr(ft_strncat(tab, src, 8));
+	return (0);
+}

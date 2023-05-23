@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int a(char *str)
+{
+	return (*str == 'a');
+}
+
+int b(char *str)
+{
+	return (*str == 'b');
+}
+
+int main(void)
+{
+	char *tab[] = {"pf", "ewcdef", "bbcdef", NULL};
+	int (*fa)(char *);
+	int (*fb)(char *);
+
+	fa = &a;
+	fb = &b;
+	printf("%d\n", ft_any(tab, fa));
+	printf("%d\n", ft_any(tab, fb));
+	return (0);
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int ind;
+
+	ind = -1;
+	char *tab[] = {"salut", "coucou", "yosh", "sucette", "four", "coucou","figurine", NULL};
+	ft_sort_string_tab(tab);
+	while (tab[++ind] != 0)
+	{
+		printf("%s\n", tab[ind]);
+	}
+	return (0);
+}

@@ -1,0 +1,13 @@
+
+#include <string.h>
+#include <stdio.h>
+int main(void)
+{
+	char a[20] = "abcdef";
+	char b[20] = "abcdef";
+	printf("%d -> %d \n", ft_strncmp(a, "abcert", 4), strncmp(b, "abcert", 4));
+	char c[20] = "abcdef";
+	char d[20] = "abcdef";
+	printf("%d -> %d \n", ft_strncmp(c, "abcare", 4), strncmp(d, "abcare", 4));
+
+}

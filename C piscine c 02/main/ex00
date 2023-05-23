@@ -1,0 +1,19 @@
+
+void	ft_putstr(char *str)
+{
+	while (*str != 0)
+	{
+		write(1, str, 1);
+		str++;
+	}
+}
+
+int main(void)
+{
+	char *test;
+	test = "connard";
+	char *test2;
+	char ok = 4;
+	test2 = &ok;
+	ft_putstr(ft_strcpy(test2, test));
+}

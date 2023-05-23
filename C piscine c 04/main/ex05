@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("%i\n", ft_atoi_base("      ---+--+1234ab5","0123456789abcdef"));
+	printf("%i\n", ft_atoi_base("      ---+--+0","poivron"));
+	printf("%i\n", ft_atoi_base("      ---+--+p","poivron"));
+	printf("%i\n", ft_atoi_base("      ---+--+1234ab5","0123456+789abcdef"));
+	printf("%i\n", ft_atoi_base("      ---+--+1234ab5","01234-56789abcdef"));
+	printf("%i\n", ft_atoi_base("      ---+--+1234ab5","0123456789abccdef"));
+	printf("%i\n", ft_atoi_base("      ---+-+0101010100l01011001","01"));
+	printf("%i\n", ft_atoi_base("      --+--+42angoulem","42angoulem"));
+	return (0);
+}

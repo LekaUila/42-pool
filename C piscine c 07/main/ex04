@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void)
+{
+	printf("%s", ft_convert_base("1111111110100010010101101110", "01", "0123456789abcdef"));
+	return (0);
+}
+/* rep ffa256e */

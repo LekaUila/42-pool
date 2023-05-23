@@ -1,0 +1,7 @@
+
+int main(void)
+{
+	char tab[255] = "Coucou\ntu vas \f bien ?";
+	ft_putstr_non_printable(tab);
+	return(0);
+}

@@ -1,0 +1,24 @@
+
+int	main(void)
+{
+	int	tab[5];
+	int	i;
+
+	i = -1;
+	tab[0] = 'c';
+	tab[1] = 'o';
+	tab[2] = 'n';
+	tab[3] = 'a';
+	tab[4] = 'r';
+	while (++i != 5)
+	{
+		write(1, tab + i, 1);
+	}
+	i = -1;
+	write(1, "\n", 1);
+	ft_rev_int_tab(tab, 5);
+	while (++i != 5)
+	{
+		write(1, tab + i, 1);
+	}
+}

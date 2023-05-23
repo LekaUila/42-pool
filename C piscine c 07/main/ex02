@@ -1,0 +1,19 @@
+#include <stdio.h>
+int	main(void)
+{
+	int temp1;
+	int *temp2;
+	int **tab;
+
+	temp1 = 0;
+	temp2 =&temp1;
+	tab = &temp2;
+	printf("%d",ft_ultimate_range(tab, 0, 10));
+	printf("\n");
+	for (int ind = 0; ind<10; ind++ )
+	{
+		printf("%i, ", (*tab)[ind]);
+
+	}
+	return (0);
+}

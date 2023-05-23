@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+	char *tab[5];
+	tab[0] = "Tu";
+	tab[1] = "as";
+	tab[2] = "super";
+	tab[3] = "bien";
+	tab[4] = "reussi";
+	printf("%s", ft_strjoin(5, tab, " ! "));
+	return (0);
+}

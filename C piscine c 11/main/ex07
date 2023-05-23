@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int	ft_strcmp(char *s1, char *s2)
+{
+	while (*s1 == *s2 && *s1)
+	{
+		s1++;
+		s2++;
+	}
+	return (*(unsigned char *)s1 - *(unsigned char *)s2);
+}
+
+int main(void)
+{
+	int ind;
+	int (*f)(char *s1, char *s2);
+
+	f = &ft_strcmp;
+	ind = -1;
+	char *tab[] = {"salut", "coucou", "yosh", "sucette", "four", "coucou","figurine", NULL};
+	ft_advanced_sort_string_tab(tab, f);
+	while (tab[++ind] != 0)
+	{
+		printf("%s\n", tab[ind]);
+	}
+	return (0);
+}

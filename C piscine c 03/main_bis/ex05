@@ -1,0 +1,9 @@
+#include <bsd/string.h>
+#include <stdio.h>
+int main()
+{
+	char a[20] = "qwe";
+	char b[20] = "qwe";
+	printf("%d -> %li", ft_strlcat(a, "abc", 5), strlcat(b, "abc", 5));
+}
+

@@ -1,0 +1,7 @@
+
+int main(void)
+{
+	char tab[255] = "Ceci est un \n gros bordel !\n!\n!, what the fuck \b c quoi ta logique \n\n\n\n\n\n\n\n\n\n\n\n ! Tu est vraiment une merde  !";
+	ft_print_memory(tab, 110);
+	return(0);
+}

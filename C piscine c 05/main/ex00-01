@@ -1,0 +1,31 @@
+// ex00
+
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("%i\n",ft_iterative_factorial(0));
+	printf("%i\n",ft_iterative_factorial(1));
+	printf("%i\n",ft_iterative_factorial(2));
+	printf("%i\n",ft_iterative_factorial(3));
+	printf("%i\n",ft_iterative_factorial(4));
+	printf("%i\n",ft_iterative_factorial(5));
+	printf("%i\n",ft_iterative_factorial(6));
+}
+
+
+// ex01
+
+
+#include <stdio.h>
+
+int	main(void)
+{
+	printf("%i\n",ft_recursive_factorial(0));
+	printf("%i\n",ft_recursive_factorial(1));
+	printf("%i\n",ft_recursive_factorial(2));
+	printf("%i\n",ft_recursive_factorial(3));
+	printf("%i\n",ft_recursive_factorial(4));
+	printf("%i\n",ft_recursive_factorial(5));
+	printf("%i\n",ft_recursive_factorial(6));
+}

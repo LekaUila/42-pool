@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+	printf("100 is prime ? %i \n",ft_is_prime(100));
+	printf("2 is prime ? %i \n",ft_is_prime(2));
+	printf("3 is prime ? %i \n",ft_is_prime(3));
+	printf("9 is prime ? %i \n",ft_is_prime(9));
+	printf("22 091 is prime ? %i \n",ft_is_prime(22091));
+	printf("42 is prime ? %i \n",ft_is_prime(42));
+	printf("5 is prime ? %i \n",ft_is_prime(5));
+	printf("13 is prime ? %i \n",ft_is_prime(13));
+	printf("11 is prime ? %i \n",ft_is_prime(11));
+	printf("1873 is prime ? %i \n",ft_is_prime(1873));
+	printf("2147483647 is prime ? %i \n",ft_is_prime(2147483647));
+	return (0);
+}

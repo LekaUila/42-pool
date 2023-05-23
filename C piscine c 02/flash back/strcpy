@@ -1,0 +1,14 @@
+char	*ft_strcpy(char *dest, char *src)
+{
+	char	*dest_tempo;
+
+	dest_tempo = dest;
+	while (*src != 0)
+	{
+		*dest_tempo = *src;
+		src++;
+		dest_tempo++;
+	}
+	*dest_tempo = 0;
+	return (dest);
+}

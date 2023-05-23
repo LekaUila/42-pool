@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(void)
+{
+	printf("%i", ft_ten_queens_puzzle());
+	return (0);
+}

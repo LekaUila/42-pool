@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+	printf("sqrt(100) = %i \n",ft_sqrt(100));
+	printf("sqrt(25) = %i \n",ft_sqrt(25));
+	printf("sqrt(10000) = %i \n",ft_sqrt(10000));
+	printf("sqrt(4) = %i \n",ft_sqrt(4));
+	printf("sqrt(2) = %i \n",ft_sqrt(2));
+	printf("sqrt(9) = %i \n",ft_sqrt(9));
+	printf("sqrt(175509504) = %i \n",ft_sqrt(175509504));
+	return (0);
+}

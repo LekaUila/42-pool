@@ -1,0 +1,21 @@
+int	main(void)
+{
+ft_putnbr_base(-205652565, "0123456789");
+write(1, "\n", 1);
+ft_putnbr_base(4598465, "0123456789ABCDEF");
+write(1, "\n", 1);
+ft_putnbr_base(15, "01");
+write(1, "\n", 1);
+ft_putnbr_base(-5654646, "poivron");
+write(1, "\n", 1);
+ft_putnbr_base(-20, "arehb-");
+write(1, "\n", 1);
+ft_putnbr_base(2052565, "01234+56789");
+write(1, "\n", 1);
+ft_putnbr_base(20565, "ba");
+write(1, "\n", 1);
+ft_putnbr_base(98763210, "98765543210");
+write(1, "\n", 1);
+ft_putnbr_base(98763210, "9876543210");
+write(1, "\n", 1);
+}

@@ -1,0 +1,16 @@
+
+int main (void)
+{	
+	int	booll;
+	char	*str;
+	
+	str = "qwertyuiiop";
+	booll = ft_str_is_alpha(str) + 48;
+	write(1, &booll, 1);
+	str = "123456789";
+	booll = ft_str_is_alpha(str) + 48;
+	write(1, &booll, 1);
+	str = "qwertyui1op";
+	booll = ft_str_is_alpha(str) + 48;
+	write(1, &booll, 1);
+}

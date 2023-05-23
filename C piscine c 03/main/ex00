@@ -1,0 +1,31 @@
+
+
+#include <unistd.h>
+
+int main(void)
+{
+	char *a;
+	char *b;
+	char *c;
+	int d;
+
+	a = "aaaaa";
+	b = "aacaa";
+	c = "aaaab";
+
+	d = ft_strcmp(a, a)+48; //  0 
+	write(1, &d, 1);
+	d = ft_strcmp(a, b)+48; // /
+	write(1, &d, 1);
+	d = ft_strcmp(a, c)+48; // /
+	write(1, &d, 1);
+	d = ft_strcmp(c, a)+48; // 1
+	write(1, &d, 1);
+	d = ft_strcmp(c, b)+48; // /
+	write(1, &d, 1);
+	d = ft_strcmp(b, a)+48; // 1
+	write(1, &d, 1);
+	d = ft_strcmp(b, c)+48; // 1
+	write(1, &d, 1);
+}
+

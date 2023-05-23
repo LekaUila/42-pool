@@ -1,0 +1,31 @@
+
+#include <unistd.h>
+
+void	ft_putstr(char *str)
+{
+	while (*str != 0)
+	{
+		write(1, str, 1);
+		str++;
+	}
+}
+
+int main(void)
+{
+	char *src = "Nice";
+	char tab[255] = "Si ce message apparait, tu as fait de la merde ! Nice tu as reussi !";
+	ft_putstr(ft_strstr(tab, src));
+	write(1 ,"\n", 1);
+
+	char *src2 = "qwertyuiopoiuy";
+	char tab2[255] = "Si ce message apparait, tu as fait de la merde ! Nice tu as reussi !";
+	char *res = ft_strstr(tab2, src2) +48;
+	write(1 ,&res, 1);
+	write(1 ,"\n", 1);
+
+	char *src3 = "strostrom";
+	char tab3[255] = "Si ce message apparait, tu as fait de la merde ! strostrostrom Nice tu as reussi !";
+	ft_putstr(ft_strstr(tab3, src3));
+	
+	return (0);
+}

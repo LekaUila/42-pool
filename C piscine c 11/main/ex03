@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int a(char *str)
+{
+	return (*str == 'a');
+}
+
+int b(char *str)
+{
+	return (*(str + 1) == 'b');
+}
+
+int main(void)
+{
+	char *tab[] = {"ab", "abcdef", "bbcdef"};
+	int (*fa)(char *);
+	int (*fb)(char *);
+
+	fa = &a;
+	fb = &b;
+	printf("%d\n", ft_count_if(tab, 3, fa));
+	printf("%d\n", ft_count_if(tab, 3, fb));
+	return (0);
+}

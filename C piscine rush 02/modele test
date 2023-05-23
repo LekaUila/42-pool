@@ -1,0 +1,18 @@
+int	main -> recup argument
+int	strlen
+char	*read_file -> lit le fichier et renvoie la chaine de caractere correspondant a tout le fichier !
+char	*to_find -> cherche un chiffre en fonction de sa taille et renvoie la chaine de caractere correspondant
+verif nb -> verifie que le nombre est valide
+verif dict -> verifie que le dico existe bien 
+
+
+
+
+
+
+
+
+Repartition des roles :
+
+Makefile : Nathan
+

@@ -1,0 +1,42 @@
+
+int	main(void)
+{
+	int	tab[5];
+	int	g[3];
+	int	i;
+	
+
+	i = -1;
+	tab[0] = '4';
+	tab[1] = '5';
+	tab[2] = '2';
+	tab[3] = '3';
+	tab[4] = '2';
+	while (++i != 5)
+	{
+		write(1, tab + i, 1);
+	}
+	i = -1;
+	write(1, "\n", 1);
+	ft_sort_int_tab(tab, 5);
+	while (++i != 5)
+	{
+		write(1, tab + i, 1);
+	}
+	write(1, "\n", 1);
+	i = -1;
+	g[0] = '4';
+	g[1] = '5';
+	g[2] = '2';
+	while (++i != 3)
+	{
+		write(1, g + i, 1);
+	}
+	i = -1;
+	write(1, "\n", 1);
+	ft_sort_int_tab(g, 3);
+	while (++i != 3)
+	{
+		write(1, g + i, 1);
+	}
+}

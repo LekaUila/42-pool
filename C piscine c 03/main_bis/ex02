@@ -1,0 +1,12 @@
+#include <string.h>
+#include <stdio.h>
+int main()
+{
+	char a[20] = "abcdef";
+	char b[20] = "abcdef";
+	printf("%s -> %s \n", ft_strcat(a, "abc"), strcat(b, "abc"));
+	char c[20] = "abc\0def";
+	char d[20] = "abc\0def";
+	printf("%s -> %s \n", ft_strcat(c, "abc"), strcat(d, "abc"));
+
+}

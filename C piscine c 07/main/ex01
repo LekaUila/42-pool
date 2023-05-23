@@ -1,0 +1,10 @@
+#include <stdio.h>
+int	main(void)
+{
+	int *tab;
+
+	tab = ft_range(0, 10);
+	for (int ind = 0; ind<10; ind++ )
+		printf("%i", tab[ind]);
+	return (0);
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+	printf("2147483647 next prime ? %i \n",ft_find_next_prime(2147483647));
+	printf("100 next prime ? %i \n",ft_find_next_prime(100));
+	printf("1 next prime ? %i \n",ft_find_next_prime(1));
+	printf("2 next prime ? %i \n",ft_find_next_prime(2));
+	printf("42 next prime ? %i \n",ft_find_next_prime(42));
+	printf("1873 next prime ? %i \n",ft_find_next_prime(1873));
+	printf("984651 next prime ? %i \n",ft_find_next_prime(984651));
+	printf("4 next prime ? %i \n",ft_find_next_prime(4));
+	printf("8 next prime ? %i \n",ft_find_next_prime(8));
+	printf("78 next prime ? %i \n",ft_find_next_prime(78));
+	printf("789456 next prime ? %i \n",ft_find_next_prime(789456));
+	return (0);
+}
